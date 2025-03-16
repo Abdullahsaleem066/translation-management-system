@@ -12,8 +12,8 @@ This is a Laravel-based project for managing translations, locales, and tags. It
 
 ## Setup
 
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
+- composer install
+- change .env.example .env
+- php artisan key:generate
+- php artisan migrate --seed
+- php artisan serve
